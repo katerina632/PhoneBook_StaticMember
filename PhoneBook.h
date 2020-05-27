@@ -30,8 +30,8 @@ public:
 	void ShowAllContacts() const;
 	Contact SetContact(const char _name[],const char mobile[], const char home[], const char note[]);
 
-	void Save();
-	void Load();
+	void Save() const;
+	void Load() ;
 
 };
 

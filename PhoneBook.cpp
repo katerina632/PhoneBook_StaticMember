@@ -94,7 +94,7 @@ Contact PhoneBook::SetContact(const char _name[], const char mobile[], const cha
 	return newContact;
 }
 
-void PhoneBook::Save()
+void PhoneBook::Save() const
 {
 	ofstream fout;
 	fout.open(fileName);
@@ -115,7 +115,7 @@ void PhoneBook::Save()
 	fout.close();
 }
 
-void PhoneBook::Load()
+void PhoneBook::Load() 
 {
 	int size;
 	ifstream fin;
