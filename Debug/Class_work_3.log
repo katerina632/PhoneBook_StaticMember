@@ -1,0 +1,3 @@
+﻿  Circle.cpp
+C:\Users\User\Desktop\DZ\Class_work_3\Circle.cpp(5,22): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Class_work_3.vcxproj -> C:\Users\User\Desktop\DZ\Class_work_3\Debug\Class_work_3.exe
